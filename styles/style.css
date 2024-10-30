@@ -1,1 +1,42 @@
-/* место для вашего кода */
+header {
+    display: flex;
+    justify-content: space-around;
+    margin: 92px 24px;
+
+    #menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 391.48px;
+
+        li {
+            list-style-type: circle;
+
+            &:first-child  {
+                list-style-type: none;
+            }
+        }
+    }
+
+    #logo {
+        align-content: center;
+        width: 148px;
+        height: 105px;
+    }
+
+    #contacts {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        list-style: none;
+        width: 240px;
+        font-family: Raleway;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24.3px;
+        text-align: left;
+    }
+}
+
+
+
