@@ -38,5 +38,88 @@ header {
     }
 }
 
+.jambotron {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+    .image {
+        height: 757px;
+        filter: brightness(0.5);
+    }
+
+    .content {
+        margin-top: 165px;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+
+        #title {
+            height: 355px;
+            width: 1000px;
+
+
+            p {
+                display: flex;
+                color: #ffffff;
+                font-family: Raleway;
+                font-size: 100px;
+                font-weight: 700;
+                line-height: 115px;
+                letter-spacing: 0.3em;
+                text-transform: uppercase;
+            }
+
+            #title_tebe {
+                justify-content: center;
+            }
+
+            #title_nado {
+                justify-content: end;
+            }
+        }
+
+        #subline {
+            color: #ffffff;
+            margin-top: 135px;
+            display: flex;
+            justify-items: center;
+            justify-content: flex-end;
+
+
+            p {
+                margin-right: 78px;
+                display: flex;
+                align-items: center;
+                width: 637px;
+                
+                font-family: Raleway;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 28px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                text-transform: uppercase;
+
+                
+            }
+
+            a {
+                display: flex;
+                width: 256px;
+                height: 51px;
+                padding: 10px 5px;
+                border: solid 1px;
+
+                align-items: center;
+                justify-content: center;
+                text-transform: uppercase;
+            }
+
+        }
+
+    }
+}
 
 
