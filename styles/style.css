@@ -122,4 +122,80 @@ header {
     }
 }
 
+.lots {
+    padding: 181px 25px 0px 25px;
 
+    .card-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        /* flex-wrap: wrap;
+        gap: 25px; */
+    
+        .card-list-item {
+                list-style: none;
+        
+                .card-link {
+                    text-decoration: none;
+                }
+            }
+        
+            .card {
+                width: 334px;
+                height: 563px;
+                
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-color: rgba(0, 0, 0, 0.6);
+                background-blend-mode: multiply;
+
+                .card__title {
+                    color: #ffffff;
+                    font-size: 22px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 120%;
+                    padding: 50px 40px 0px 40px;
+                    text-decoration-line: underline;
+                }
+
+                .card__text {
+                    color: #ffffff;
+                    font-size: 20px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 120%;
+                    padding: 0 40px 50px 40px;
+                }
+
+                &.card_type_film {
+                    background: url(../images/card-lot-01.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                background-color: rgba(0, 0, 0, 0.6); 
+                background-blend-mode: multiply;
+                }
+
+                &.card_type_book {
+                    background: url(../images/card-lot-02.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                background-color: rgba(0, 0, 0, 0.6);
+                background-blend-mode: multiply;
+                }
+
+                &.card_type_picture {
+                    background: url(../images/card-lot-03.jpg);
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                background-color: rgba(0, 0, 0, 0.6);
+                background-blend-mode: multiply;
+                }
+        
+            }
+        }
+        }
